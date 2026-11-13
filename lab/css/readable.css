@@ -1,0 +1,39 @@
+/* Readability floor for projection (7 Nov): small labels, captions and tags raised.
+   Kept at their real sizes on purpose: Lina's Instagram scene (as she asked) and the
+   mock browser and email chrome in the blog and newsletter scene. */
+#stage .scene:not([data-scene=social]) .eyebrow{font-size:19px}
+#stage .t-corner{font-size:17px}
+#stage .k-count .k-n{font-size:18px}
+#stage .c-dow span{font-size:17px}
+#stage .c-note span{font-size:16px}
+#stage .c-fromto i{font-size:16px}
+#stage .kc-panel i{font-size:18px}
+#stage .kz-sent{font-size:17px}
+#stage .kz-q{font-size:19px}
+#stage .m-play small{font-size:17px}
+#stage .m-toast{font-size:19px}
+#stage .o-item i{font-size:16px}
+#stage .kp-step i{font-size:17px}
+#stage .kp-src{font-size:18px}
+#stage .x-facts p{font-size:17px}
+#stage .x-st span{font-size:17px}
+#stage .seal{font-size:15px}
+#stage .kj-dev .bar span{font-size:17px}
+#stage .kj-w{font-size:18px}
+#stage .kj-steps em{font-size:16px}
+#stage .kt-def b{font-size:18px}
+#stage .kt-card .stage{font-size:16px}
+#stage .kt-card .btns span{font-size:16px}
+#stage .w-tour p,#stage .w-tour button small{font-size:17px}
+#stage .kr-laptop figcaption span,#stage .kr-phone figcaption span{font-size:17px}
+#stage .kr-tile .lbl,#stage .kr-on .lbl,#stage .kr-main .lbl{font-size:17px}
+#stage .kr-chart .hd{font-size:16px}
+#stage .kr-chart .kr-axis i{font-size:15px}
+#stage .kr-src{font-size:19px}
+#stage .hd-not .lbl,#stage .hd-out .lbl,#stage .hd-meas .lbl{font-size:17px}
+#stage .hd-meas .g span,#stage .hd-buy .week small{font-size:16px}
+#stage .hd-sizes .sz{font-size:18px}
+#stage .pd-adwrap .pill,#stage .cnt{font-size:15px}
+#stage .meters p b{font-size:18px}
+#stage .pd-col .lbl,#stage .pd-aud2 .lbl{font-size:18px}
+#stage .pd-also{font-size:16px}

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Occasion Interaction Lab</title>
+<link rel="stylesheet" href="css/lab.css">
+<link rel="stylesheet" href="css/scenes.css">
+<link rel="stylesheet" href="css/v2.css">
+<link rel="stylesheet" href="css/paid.css">
+<link rel="stylesheet" href="css/khaoula.css">
+<link rel="stylesheet" href="css/karen.css">
+<link rel="stylesheet" href="css/lina.css">
+<link rel="stylesheet" href="css/hodan.css">
+<link rel="stylesheet" href="css/readable.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="viewport"><div id="stage">
+
+  <!-- Title -->
+  <section class="scene" data-scene="title" data-section="" data-presenter="Khaoula" data-module="./scene-title.js">
+    <div class="grain"></div>
+    <canvas class="t-back" width="1920" height="1080"></canvas>
+    <p class="t-corner l">BM074-3-M-DMTT · Digital Marketing Tools and Trends</p>
+    <p class="t-corner r">Lecturer: Philip Tan Hock Guan</p>
+    <p class="eyebrow t-eyebrow">Ferrero Rocher Malaysia · Group 17</p>
+    <h1 class="display t-line1"><span>You</span> <span>Don’t</span> <span>Need</span></h1>
+    <canvas class="t-box" width="1920" height="1080"></canvas>
+    <h1 class="display t-line2"><span>an</span> <em>Occasion</em></h1>
+    <p class="t-tag2">Share a little love.</p>
+    <canvas class="t-front" width="1920" height="1080"></canvas>
+    <p class="t-names">Khaoula Benidir · Karen Agnes Hellar · Lina Fahmi Ahmed · Hansan Djibril Ahmed · Hodan Abdallah Ismael</p>
+  </section>
+
+  <!-- Opening · The brand challenge -->
+  <section class="scene" data-scene="challenge" data-section="exec" data-presenter="Khaoula" data-piece="1812,560" data-module="./scene-khaoula.js"></section>
+
+  <!-- Executive Summary -->
+  <section class="scene" data-scene="summary" data-section="exec" data-presenter="Khaoula" data-piece="1832,330" data-module="./scene-summary.js">
+    <div class="grain"></div>
+    <p class="eyebrow x-eyebrow">Executive summary · Campaign overview</p>
+    <p class="x-label">The campaign</p>
+    <h2 class="display x-obj"></h2>
+  </section>
+
+  <!-- Opening · Introducing our campaign (moves from special occasions to everyday gestures) -->
+  <section class="scene" data-scene="calendar" data-section="exec" data-presenter="Khaoula" data-module="./scene-calendar.js">
+    <div class="grain"></div>
+    <p class="eyebrow c-eyebrow">Introducing our campaign</p>
+    <h2 class="display c-head"><span class="c-a">Calendars mark the <em>special</em> days.</span><span class="c-b">Gold marks the <em>ordinary</em> ones.</span></h2>
+    <div class="c-desk">
+      <div class="c-tags"></div>
+      <div class="c-cal"><div class="c-dow"></div><div class="c-grid"></div></div>
+      <svg class="c-ann" viewBox="0 0 1920 1080"></svg>
+      <div class="c-moment"></div>
+    </div>
+    <div class="c-concept"></div>
+  </section>
+
+  <!-- Content: every section this presentation covers, Part 1 then Part 2 -->
+  <section class="scene scene--clear" data-scene="part1" data-part="1" data-contents data-section="1.1" data-presenter="Khaoula" data-module="./scene-divider.js">
+    <canvas class="f-gl"></canvas>
+    <div class="f-copy"></div>
+  </section>
+
+  <!-- a. Content Marketing · Content Strategy and Creation -->
+  <section class="scene" data-scene="formats" data-section="1.1" data-presenter="Khaoula" data-module="./scene-formats.js">
+    <div class="grain"></div>
+    <p class="eyebrow o-eyebrow">Part 1 · <span class="lc">a.</span> Content Marketing · Content Strategy and Creation</p>
+    <h2 class="display o-head">Six formats. <em>One message.</em></h2>
+    <p class="o-quote">“Six formats of content repeat one message across the buyer’s journey, so the audience meets the concept more than once.”</p>
+    <div class="o-shelf"></div>
+    <div class="o-card"></div>
+  </section>
+
+  <!-- a. Content Marketing · Main campaign video -->
+  <section class="scene" data-scene="film" data-section="1.1" data-presenter="Khaoula" data-module="./scene-film.js">
+    <div class="m-cream"><div class="grain"></div>
+      <p class="eyebrow m-eyebrow">Part 1 · <span class="lc">a.</span> Content Marketing · Main campaign video · Awareness</p>
+      <h2 class="display m-head">From storyboard <em>to screen.</em></h2>
+      <div class="m-board"></div>
+      <button class="m-play"><span>▶</span><b>Play the campaign film</b><small>1:02 · with sound · starts automatically</small></button>
+    </div>
+    <div class="m-dark"></div>
+    <video class="m-video" src="assets/film/campaign.mp4" poster="assets/film/first.jpg" preload="auto" playsinline></video>
+    <div class="m-ctrl"><button class="m-pp"></button><span class="m-t">0:00</span><div class="m-bar"><i></i></div><span class="m-d">1:02</span><button class="m-snd"></button><button class="m-fs">Full screen</button></div>
+    <p class="m-err" hidden>The film could not be played. Check that assets/film/campaign.mp4 is present.</p>
+    <p class="m-toast">Press → again to leave the film</p>
+  </section>
+
+  <!-- a. Content Marketing · Storybook -->
+  <section class="scene" data-scene="book" data-section="1.1" data-presenter="Khaoula" data-module="./scene-book.js">
+    <div class="grain"></div>
+    <div class="k-copy">
+      <p class="eyebrow">Part 1 · <span class="lc">a.</span> Content Marketing · Storybook · Consideration</p>
+      <h2 class="display k-head">The Golden <em>Moment</em></h2>
+      <p class="k-lede">Places the product in everyday situations; stories make the message easier to remember (Pulizzi, 2012).</p>
+    </div>
+    <div class="k-book"><div class="k-spread"></div></div>
+    <p class="k-count"><span class="k-n">Cover</span></p>
+  </section>
+
+  <!-- a. Content Marketing · Blog and newsletter -->
+  <section class="scene" data-scene="web" data-section="1.1" data-presenter="Khaoula" data-module="./scene-web.js">
+    <div class="w-top">
+      <div>
+        <p class="eyebrow">Part 1 · <span class="lc">a.</span> Content Marketing · Blog article · Email newsletter</p>
+        <h2 class="display w-head">Read it. Scroll it. <em>Try it.</em></h2>
+      </div>
+      <div class="w-ctrls">
+        <div class="seg w-mode"><button data-mode="blog" class="on">Blog article</button><button data-mode="mail">Newsletter</button></div>
+        <div class="seg w-dev"><button data-dev="desktop" class="on">Desktop</button><button data-dev="tablet">Tablet</button><button data-dev="mobile">Mobile</button></div>
+      </div>
+    </div>
+    <div class="w-body">
+      <div class="w-tour"></div>
+      <div class="w-win">
+        <div class="w-bar"><i></i><i></i><i></i><span class="w-title">You Don’t Need a Special Occasion to Make Someone Feel Special</span></div>
+        <div class="w-pane">
+          <aside class="w-inbox">
+            <p class="w-inbox-h">Inbox</p>
+            <button class="w-mail on"><b>Ferrero Rocher</b><span class="w-subj">A Little Love, Just Because</span><span class="w-pre">You don’t need a special occasion to make someone smile today.</span></button>
+          </aside>
+          <iframe class="w-frame" title="Campaign blog" src="about:blank"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- a. Content Marketing · Performance Evaluation -->
+  <section class="scene" data-scene="perf" data-section="1.1" data-presenter="Khaoula" data-piece="1812,560" data-module="./scene-khaoula.js"></section>
+
+  <!-- ===== 2 · Website Optimisation and SEO ===== -->
+  <!-- d. Website Optimisation and e. Search Engine Optimisation -->
+  <section class="scene" data-scene="wo-audit" data-section="1.4" data-presenter="Karen" data-module="./scene-karen.js"></section>
+  <section class="scene" data-scene="seo-search" data-section="1.5" data-presenter="Karen" data-module="./scene-karen.js"></section>
+  <section class="scene" data-scene="seo-links" data-section="1.5" data-presenter="Karen" data-module="./scene-karen.js"></section>
+
+  <!-- ===== 3 · Social Media Marketing ===== -->
+  <!-- c. Social Media Marketing: audit and platform roles, Instagram, campaign rollout -->
+  <section class="scene" data-scene="sm-audit" data-section="1.3" data-presenter="Lina" data-module="./scene-lina.js"></section>
+  <section class="scene" data-scene="social" data-section="1.3" data-presenter="Lina" data-module="./scene-social.js">
+    <div class="grain"></div>
+    <p class="eyebrow s-eyebrow">Part 1 · <span class="lc">c.</span> Social Media Marketing</p>
+    <div class="s-left">
+      <p class="s-kicker">Navigate</p>
+      <div class="s-jump"><button data-go="profile"><b>Profile</b><small>Grid and highlights</small></button><button data-go="home"><b>Feed</b><small>Posts as they appear</small></button><button data-go="story"><b>Stories</b><small>Tap through</small></button><button data-go="reels"><b>Reels</b><small>Campaign reels</small></button></div>
+    </div>
+    <div class="s-phone"><i class="s-btn a"></i><i class="s-btn b"></i><i class="s-btn c"></i><div class="s-screen"></div><div class="s-glass"></div></div>
+    <div class="s-right"></div>
+  </section>
+  <section class="scene" data-scene="sm-wave" data-section="1.3" data-presenter="Lina" data-module="./scene-lina.js"></section>
+
+  <!-- ===== 4 · Paid Search ===== -->
+  <!-- f. Paid Search Campaigns (updated slides, 5 Nov) -->
+  <section class="scene" data-scene="ps-role" data-section="1.6" data-presenter="Hansan" data-module="./scene-paid.js"></section>
+  <section class="scene" data-scene="ps-keys" data-section="1.6" data-presenter="Hansan" data-module="./scene-paid.js"></section>
+  <section class="scene" data-scene="ps-ads" data-section="1.6" data-presenter="Hansan" data-module="./scene-paid.js"></section>
+  <section class="scene" data-scene="ps-bid" data-section="1.6" data-presenter="Hansan" data-module="./scene-paid.js"></section>
+  <section class="scene" data-scene="ps-measure" data-section="1.6" data-presenter="Hansan" data-module="./scene-paid.js"></section>
+
+  <!-- ===== 5 · Display Advertising and CRM ===== -->
+  <!-- b. Display Advertising -->
+  <section class="scene" data-scene="da-reach" data-section="1.2" data-presenter="Hodan" data-module="./scene-hodan.js"></section>
+  <section class="scene" data-scene="da-formats" data-section="1.2" data-presenter="Hodan" data-module="./scene-hodan.js"></section>
+  <section class="scene" data-scene="da-buying" data-section="1.2" data-presenter="Hodan" data-module="./scene-hodan.js"></section>
+  <section class="scene" data-scene="da-target" data-section="1.2" data-presenter="Hodan" data-module="./scene-hodan.js"></section>
+  <!-- g. Customer Relationship Management -->
+  <section class="scene" data-scene="crm" data-section="1.7" data-presenter="Hodan" data-piece="1830,560" data-module="./scene-hodan.js"></section>
+
+  <!-- ===== 6 · User Experience and Personalisation, conclusion ===== -->
+  <!-- Part 2 · e. User Experience and Personalisation (Khaoula's deck) -->
+  <section class="scene" data-scene="uxt" data-section="2.5" data-presenter="Khaoula" data-piece="1830,560" data-module="./scene-khaoula.js"></section>
+  <section class="scene" data-scene="uxp" data-section="2.5" data-presenter="Khaoula" data-piece="1830,560" data-module="./scene-khaoula.js"></section>
+
+  <!-- Closing · thank you -->
+  <section class="scene" data-scene="close" data-section="" data-presenter="Khaoula" data-piece="1812,560" data-module="./scene-khaoula.js"></section>
+
+  <!-- Out of the running order (kept for reference):
+       · uxs (personalisation) merged into uxp on 8 Nov; uxo (supporting the objective) removed on 8 Nov
+       · ps-time (Hansan's audience and timing): his updated slides place the Trends chart in ps-role and the audience in ps-keys
+       · Part 2 a.–d. (p21–p24): no material was supplied for these topics, so they are not presented
+    <section class="scene" data-scene="p21" data-section="2.1" data-presenter="Hansan" data-module="./scene-part2.js"></section>
+    <section class="scene" data-scene="p22" data-section="2.2" data-presenter="Hodan" data-module="./scene-part2.js"></section>
+    <section class="scene" data-scene="p23" data-section="2.3" data-presenter="Karen" data-module="./scene-part2.js"></section>
+    <section class="scene" data-scene="p24" data-section="2.4" data-presenter="Lina" data-module="./scene-part2.js"></section>
+    <section class="scene" data-scene="uxs" data-section="2.5" data-presenter="Khaoula" data-module="./scene-khaoula.js"></section>
+    <section class="scene" data-scene="uxo" data-section="2.5" data-presenter="Khaoula" data-module="./scene-khaoula.js"></section>
+  -->
+
+  <!-- persistent structure route -->
+  <nav class="route"><div class="route-line"></div><div class="route-items"></div><img class="route-piece" src="assets/cut/piece.png" alt=""></nav>
+  <div class="tx"></div>
+  <img class="side-piece" src="assets/cut/piece.png" alt="">
+  <button class="mute" aria-label="Mute or unmute sound"></button>
+</div></div>
+
+<div id="chrome">
+  <span class="tag"><b>Interaction lab</b> · v3 · real product assets</span>
+  <span class="tag" id="count">01</span>
+  <span class="spacer"></span>
+  <button class="tag" id="toggleNote">Notes (I)</button>
+  <span class="tag">← → or clicker · → also advances builds</span>
+</div>
+<div id="dots"></div>
+<aside id="note"></aside>
+
+<script type="module" src="js/lab.js"></script>
+</body>
+</html>
